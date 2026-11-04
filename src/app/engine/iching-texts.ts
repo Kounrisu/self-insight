@@ -1,0 +1,87 @@
+// Original, concise interpretation texts for the 64 hexagrams (King Wen order,
+// index 0 = hexagram 1). Written for this project as reflection prompts; they
+// are not a translation of any published edition.
+
+export interface HexagramText {
+  /** What the situation is about. */
+  theme: string;
+  /** A suggestion for how to meet it. */
+  advice: string;
+}
+
+export const HEXAGRAM_TEXTS: readonly HexagramText[] = [
+  { theme: 'Pure creative force: strong initiative and a clear direction.', advice: 'Act with confidence, but stay steady; power works best when it is patient.' },
+  { theme: 'Pure receptivity: support, devotion and the strength of yielding.', advice: 'Follow, nourish and let things take shape instead of forcing them.' },
+  { theme: 'A hard start where everything is tangled and new.', advice: 'Do not rush. Organise, seek help and take one small step at a time.' },
+  { theme: 'Inexperience and a mind still forming.', advice: 'Ask honest questions, accept guidance and learn by doing.' },
+  { theme: 'Something is coming but is not ready yet.', advice: 'Wait with trust, look after yourself and keep your resolve.' },
+  { theme: 'Friction and disagreement, inner or outer.', advice: 'Seek a fair settlement early; winning the argument may cost more than it gains.' },
+  { theme: 'Discipline and organisation toward a shared goal.', advice: 'Lead with clear rules and fairness; keep the purpose honourable.' },
+  { theme: 'Coming together, bonding and mutual loyalty.', advice: 'Join sincerely and choose your commitments carefully, and soon.' },
+  { theme: 'A small, gentle restraint of a larger force.', advice: 'Progress through patience and small adjustments rather than big moves.' },
+  { theme: 'Walking carefully close to something powerful.', advice: 'Stay composed and courteous; good manners are protection.' },
+  { theme: 'Harmony between above and below; things flow.', advice: 'Enjoy the good period and use it to strengthen what matters.' },
+  { theme: 'Blockage: communication and energy are not moving.', advice: 'Do not push. Preserve your integrity and wait for the turn.' },
+  { theme: 'Fellowship around a common ideal.', advice: 'Look for what unites people, and stay open beyond your own circle.' },
+  { theme: 'Abundance and influence.', advice: 'Hold your resources modestly and use them for good.' },
+  { theme: 'True modesty: strength that does not need display.', advice: 'Stay humble in success; balance things out by giving where you have more.' },
+  { theme: 'Enthusiasm and momentum that moves others.', advice: 'Channel the energy into shared action, and prepare before you launch.' },
+  { theme: 'Adapting and following the right lead.', advice: 'Be flexible and worth following; adjust to the moment without losing principles.' },
+  { theme: 'Decay from neglect that can still be repaired.', advice: 'Name what has gone wrong, then act decisively and plan the repair.' },
+  { theme: 'Growth approaching; a favourable time that will not last.', advice: 'Take initiative now with warmth and care for those you lead.' },
+  { theme: 'Observing deeply, seeing and being seen.', advice: 'Step back to see the whole, and let your own example speak.' },
+  { theme: 'An obstacle that must be bitten through.', advice: 'Be direct and fair, and resolve the issue instead of avoiding it.' },
+  { theme: 'Beauty and form that decorate but do not replace substance.', advice: 'Enjoy appearance in small things; keep the essentials honest.' },
+  { theme: 'Erosion; the structure is being stripped away.', advice: 'Do not fight the tide. Stay still, conserve what you can and wait.' },
+  { theme: 'The turning point and the return of light.', advice: 'Begin again gently; do not hurry what is only just returning.' },
+  { theme: 'Natural, spontaneous goodness without calculation.', advice: 'Act from sincerity and avoid hidden agendas; expect the unexpected.' },
+  { theme: 'Great restraint that builds up strength.', advice: 'Store energy, study and prepare; bigger action comes later.' },
+  { theme: 'Nourishment: what you take in and what you give out.', advice: 'Watch what you feed your body, mind and words.' },
+  { theme: 'The load is too heavy for the beam.', advice: 'Act decisively but avoid extremes; get support before it breaks.' },
+  { theme: 'Danger repeated: a deep pit that tests sincerity.', advice: 'Stay honest and consistent; learn the lesson of the situation and keep moving.' },
+  { theme: 'Clarity and warmth that depend on what they hold on to.', advice: 'Stay attached to what is good and keep your inner light fed.' },
+  { theme: 'Mutual attraction and sensitivity.', advice: 'Be open and receptive; let genuine feeling lead, not calculation.' },
+  { theme: 'Endurance and lasting commitment.', advice: 'Persist in a worthwhile direction and keep renewing it.' },
+  { theme: 'A strategic retreat.', advice: 'Withdraw with dignity before you are cornered; retreat is not defeat.' },
+  { theme: 'Great power and vigour.', advice: 'Use your strength with restraint; do only what is right.' },
+  { theme: 'Advance, like the sun rising over the earth.', advice: 'Show your abilities openly and accept recognition without pride.' },
+  { theme: 'Brightness hidden under pressure.', advice: 'Protect your inner light, stay discreet and endure patiently.' },
+  { theme: 'The family as the root of order.', advice: 'Clarify roles and speak and act with consistency at home.' },
+  { theme: 'Estrangement and differing views.', advice: 'Look for small common ground; accept difference without hostility.' },
+  { theme: 'A barrier in the road.', advice: 'Stop and reflect, ask for help and change your approach.' },
+  { theme: 'Release from tension and the storm passing.', advice: 'Forgive, move on quickly and do not dwell on what has been lifted.' },
+  { theme: 'Reduction: giving up the superfluous.', advice: 'Simplify and give sincerely; little is needed when the heart is in it.' },
+  { theme: 'Increase and a favourable current.', advice: 'Use the momentum for something good and be generous with it.' },
+  { theme: 'Breakthrough: a decisive, open resolution.', advice: 'Speak clearly and act firmly, but avoid harshness and stay alert.' },
+  { theme: 'An unexpected encounter.', advice: 'Be cautious with sudden attractions or influences before you commit.' },
+  { theme: 'Gathering of people around a purpose.', advice: 'Unite under shared values and prepare for the unexpected.' },
+  { theme: 'Steady upward growth.', advice: 'Advance step by step with persistence; seek good guidance.' },
+  { theme: 'Exhaustion and being hemmed in.', advice: 'Stay firm and say little; strength comes from inner steadiness.' },
+  { theme: 'The well: a shared source that must be kept in order.', advice: 'Maintain the basics, go deep and keep what nourishes everyone clean.' },
+  { theme: 'Revolution: the old no longer fits.', advice: 'Change only when the time is ripe and the reason is sound.' },
+  { theme: 'The cauldron: transformation and refinement.', advice: 'Cultivate what you value; let experience be cooked into wisdom.' },
+  { theme: 'Shock that wakes you up.', advice: 'Stay calm and reflect when startled; the fear passes and leaves insight.' },
+  { theme: 'Stillness and stopping at the right time.', advice: 'Quiet the mind and act only when the moment is right.' },
+  { theme: 'Gradual, well-rooted development.', advice: 'Progress slowly and steadily; lasting results do not come in a rush.' },
+  { theme: 'Entering a relationship or role on uneven terms.', advice: 'Know your place, act with awareness of the consequences and avoid impulsive ties.' },
+  { theme: 'Fullness at its peak.', advice: 'Enjoy and use the high point with clarity, knowing it will pass.' },
+  { theme: 'The wanderer, far from home.', advice: 'Be modest and careful as a guest; keep your integrity and stay flexible.' },
+  { theme: 'Gentle, persistent influence like the wind.', advice: 'Work steadily and subtly; clear intent matters more than force.' },
+  { theme: 'Joy that comes from shared openness.', advice: 'Cultivate honest friendship and learning; avoid empty pleasure.' },
+  { theme: 'Dispersion of rigidity and tension.', advice: 'Dissolve what separates you, and reunite through shared purpose.' },
+  { theme: 'Limits that give shape.', advice: 'Set sensible boundaries, but do not make them harsh.' },
+  { theme: 'Inner truth and sincerity that touches others.', advice: 'Be honest and open; trust that real sincerity is felt.' },
+  { theme: 'Small excess: attention to small things.', advice: 'Do modest things well; humility is better than ambition now.' },
+  { theme: 'Everything is in order, and that needs care.', advice: 'Stay vigilant after success; success can invite decline.' },
+  { theme: 'Nearly done, but not yet there.', advice: 'Take care in the last stretch; stay alert and do not celebrate too early.' },
+];
+
+/** Generic meaning of a changing line by its position (1 = bottom). */
+export const LINE_POSITION_TEXTS: readonly string[] = [
+  'Line 1 (beginning): the seed of the matter, not yet visible. Act modestly.',
+  'Line 2 (inner position): your inner stance and close surroundings. Stay centred.',
+  'Line 3 (threshold): a tense transition; take care not to overreach.',
+  'Line 4 (outer entry): moving toward influence or an authority; proceed with caution.',
+  'Line 5 (centre of influence): the heart of the situation; the place of leadership.',
+  'Line 6 (the end): the matter outgrowing itself; time to let go or complete.',
+];
